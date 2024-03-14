@@ -3,6 +3,7 @@ module sigs.k8s.io/kustomize/api
 go 1.20
 
 require (
+	github.com/blang/semver/v4 v4.0.0
 	github.com/evanphx/json-patch v4.12.0+incompatible
 	github.com/go-errors/errors v1.4.2
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
@@ -14,7 +15,6 @@ require (
 )
 
 require (
-	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-openapi/jsonpointer v0.19.6 // indirect
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
@@ -32,7 +32,7 @@ require (
 	github.com/xlab/treeprint v1.2.0 // indirect
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
 	golang.org/x/sys v0.13.0 // indirect
-	google.golang.org/protobuf v1.30.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
