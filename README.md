@@ -1,3 +1,7 @@
+> kustomize was archived 2024-06-11. 
+>
+> Changes were merged upstream eliminating the need for the fork.
+
 # kustomize
 
 `kustomize` lets you customize raw, template-free YAML
